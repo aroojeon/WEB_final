@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="Example-of-a-Teepee.jpg" type="image/x-icon">
+  <title>Island Survival Quiz</title>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Island Survival</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Main</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"><i class="fas fa-info-circle"></i> About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="survival-stories.html"><i class="fas fa-book"></i> Survival Stories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="quiz.html"><i class="fas fa-question-circle"></i> Quiz</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!-- Main Content -->
+<div class="container mt-4">
+  <div class="jumbotron">
+    <h1 class="display-4">Island Survival Quiz</h1>
+    <p class="lead">Test your knowledge about surviving on a remote island!</p>
+    <hr class="my-4">
+    <p>Answer the following questions to see how well you'd fare in the wild.</p>
+
+    <!-- Quiz Questions (Replace with your own questions and answers) -->
+    <form>
+        <!-- Question 1 -->
+        <div class="form-group">
+          <label for="q1">Question 1: What is the first thing you should do upon finding yourself on a remote island?</label>
+          <select class="form-control" id="q1" required>
+            <option value="" disabled selected>Select an answer</option>
+            <option value="a">Build a shelter</option>
+            <option value="b">Look for food</option>
+            <option value="c">Signal for help</option>
+          </select>
+        </div>
+      
+        <!-- Question 2 -->
+        <div class="form-group">
+          <label for="q2">Question 2: What is a crucial component of a well-constructed shelter?</label>
+          <select class="form-control" id="q2" required>
+            <option value="" disabled selected>Select an answer</option>
+            <option value="a">Color of the leaves</option>
+            <option value="b">Proximity to the water source</option>
+            <option value="c">Sturdiness and protection from the elements</option>
+          </select>
+        </div>
+      
+        <!-- Question 3 -->
+        <div class="form-group">
+          <label for="q3">Question 3: What is a primary source of hydration on a deserted island?</label>
+          <select class="form-control" id="q3" required>
+            <option value="" disabled selected>Select an answer</option>
+            <option value="a">Saltwater</option>
+            <option value="b">Coconuts</option>
+            <option value="c">Seaweed</option>
+          </select>
+        </div>
+      
+        <!-- Question 4 -->
+        <div class="form-group">
+          <label for="q4">Question 4: What is the purpose of a signal fire on a deserted island?</label>
+          <select class="form-control" id="q4" required>
+            <option value="" disabled selected>Select an answer</option>
+            <option value="a">To cook food</option>
+            <option value="b">To scare away animals</option>
+            <option value="c">To attract rescue attention</option>
+          </select>
+        </div>
+      
+        <!-- Question 5 -->
+        <div class="form-group">
+          <label for="q5">Question 5: What should you use to find and purify water on a deserted island?</label>
+          <select class="form-control" id="q5" required>
+            <option value="" disabled selected>Select an answer</option>
+            <option value="a">Seashells</option>
+            <option value="b">Coconuts</option>
+            <option value="c">Water purification tablets</option>
+          </select>
+        </div>
+      
+        <!-- Question 6 -->
+        <div class="form-group">
+          <label for="q6">Question 6: What is an essential item in your survival bag for building shelters?</label>
+          <select class="form-control" id="q6" required>
+            <option value="" disabled selected>Select an answer</option>
+            <option value="a">Flashlight</option>
+            <option value="b">Multi-tool</option>
+            <option value="c">Emergency blanket</option>
+          </select>
+        </div>
+      
+        <!-- Question 7 -->
+        <div class="form-group">
+          <label for="q7">Question 7: What should you do to attract attention for rescue?</label>
+          <select class="form-control" id="q7" required>
+            <option value="" disabled selected>Select an answer</option>
+            <option value="a">Build a sandcastle</option>
+            <option value="b">Arrange seashells in an SOS pattern</option>
+            <option value="c">Climb a tree</option>
+          </select>
+        </div>
+      
+        <!-- Question 8 -->
+        <div class="form-group">
+          <label for="q8">Question 8: What is paracord useful for in survival situations?</label>
+          <select class="form-control" id="q8" required>
+            <option value="" disabled selected>Select an answer</option>
+            <option value="a">Cooking food</option>
+            <option value="b">Building shelters</option>
+            <option value="c">Communication with animals</option>
+          </select>
+        </div>
+      
+        <!-- Question 9 -->
+        <div class="form-group">
+          <label for="q9">Question 9: What is the role of a compact mirror in survival?</label>
+          <select class="form-control" id="q9" required>
+            <option value="" disabled selected>Select an answer</option>
+            <option value="a">Signaling for help</option>
+            <option value="b">Cooking food</option>
+            <option value="c">Building shelter</option>
+          </select>
+        </div>
+      
+        <!-- Question 10 -->
+        <div class="form-group">
+          <label for="q10">Question 10: Why is navigation important on a deserted island?</label>
+          <select class="form-control" id="q10" required>
+            <option value="" disabled selected>Select an answer</option>
+            <option value="a">To find buried treasure</option>
+            <option value="b">To avoid sunburn</option>
+            <option value="c">To prevent getting lost</option>
+          </select>
+        </div>
+      
+        <button type="button" class="btn btn-primary" onclick="submitQuiz()">Submit Quiz</button>
+
+      </form>
+      
+      <!-- Result Section -->
+<div id="quizResult" class="mt-4"></div>
+
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer mt-5">
+    <div class="container text-center">
+      <p>&copy; 2023 Island Survival. All rights reserved.</p>
+      <p>Contact: bayborinova2004@gmail.com</p>
+    </div>
+  </footer>
+
+<!-- Bootstrap JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Your custom JavaScript -->
+<script src="script.js"></script>
+<script>
+    function submitQuiz() {
+      // Count the number of correct answers
+      let correctAnswers = 0;
+  
+      // Question 1
+      if (document.getElementById('q1').value === 'a') {
+        correctAnswers++;
+      }
+  
+      // Question 2
+      if (document.getElementById('q2').value === 'c') {
+        correctAnswers++;
+      }
+  
+      // Question 3
+      if (document.getElementById('q3').value === 'b') {
+        correctAnswers++;
+      }
+  
+      // Question 4
+      if (document.getElementById('q4').value === 'c') {
+        correctAnswers++;
+      }
+  
+      // Question 5
+      if (document.getElementById('q5').value === 'c') {
+        correctAnswers++;
+      }
+  
+      // Question 6
+      if (document.getElementById('q6').value === 'b') {
+        correctAnswers++;
+      }
+  
+      // Question 7
+      if (document.getElementById('q7').value === 'b') {
+        correctAnswers++;
+      }
+  
+      // Question 8
+      if (document.getElementById('q8').value === 'b') {
+        correctAnswers++;
+      }
+  
+      // Question 9
+      if (document.getElementById('q9').value === 'a') {
+        correctAnswers++;
+      }
+  
+      // Question 10
+      if (document.getElementById('q10').value === 'c') {
+        correctAnswers++;
+      }
+  
+      // Display the result
+      const resultDiv = document.getElementById('quizResult');
+      resultDiv.innerHTML = `<h4>Your Quiz Result:</h4><p>You got ${correctAnswers} out of 10 correct answers!</p>`;
+    }
+  </script>
+  
+
+</body>
+</html>

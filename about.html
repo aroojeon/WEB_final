@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <link href="Example-of-a-Teepee.jpg" rel="icon" type="image/x-icon" />
+    <title>About Island Survival</title>
+    <style>
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        #card1:hover {
+            animation: pulse 1s infinite;
+            background-color: rgb(84, 187, 84);
+        }
+
+        #card2:hover {
+            animation: pulse 1s infinite;
+            background-color: rgb(102, 102, 255);
+        }
+
+        #card3:hover {
+            animation: pulse 1s infinite;
+            background-color: rgb(255, 255, 103);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Island Survival</a>
+        <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+            data-target="#navbarNav" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Main</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html"><i class="fas fa-info-circle"></i> About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="survival-stories.html"><i class="fas fa-book"></i> Survival Stories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="quiz.html"><i class="fas fa-question-circle"></i> Quiz</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <div class="jumbotron">
+            <div class="container-fluid" id="hdrr">
+                <h1 class="display-4">Welcome to Island Survival</h1>
+            </div>
+            <p class="lead">Embark on an adventure with Island Survival and discover the keys to mastering the art of
+                thriving on a remote island.</p>
+            <hr class="my-4" />
+            <p>Our Story:</p>
+            <p>Picture this: You find yourself stranded on a deserted island, palm trees swaying, waves crashing, and
+                not a Wi-Fi signal in sight. But fear not! Island Survival was born out of the idea that with the right
+                knowledge and a dash of creativity, anyone can turn a deserted island into their own tropical paradise.
+            </p>
+            <p>Our Mission:</p>
+            <p>At Island Survival, we're on a mission to equip you with the essential skills to not only survive but
+                thrive in isolation. From building ingenious shelters to sourcing food from nature's pantry, we've got
+                you covered. Our dedicated team of survival experts, beach enthusiasts, and coconut lovers are here to
+                guide you every step of the way.</p>
+            <p>Survival Tips:</p>
+            <ul>
+                <li><strong>Shelter Building:</strong> Master the art of creating shelters using natural resources like
+                    branches, leaves, and vines. A well-constructed shelter is your first line of defense against the
+                    elements.</li>
+                <li><strong>Water Sourcing:</strong> Learn how to find and purify water. Coconuts are a lifesaver for
+                    hydration, and you'll discover other hidden sources on the island.</li>
+                <li><strong>Fire Starting:</strong> Understand the basics of fire-making. It's not just for warmth; fire
+                    can be a signal for rescue and a way to cook food.</li>
+                <li><strong>Food foraging:</strong> Identify edible plants, fruits, and seafood. Knowing what's safe to
+                    eat is crucial for sustaining yourself.</li>
+                <li><strong>Navigation Techniques:</strong> Use natural landmarks and celestial cues for navigation.
+                    Getting lost on an island is no joke!</li>
+            </ul>
+            <p>Essential Items in Your Survival Bag:</p>
+            <ul>
+                <li><strong>Multi-tool:</strong> A versatile tool for various tasks, from building to food preparation.
+                </li>
+                <li><strong>First Aid Kit:</strong> Basic medical supplies for treating injuries and illnesses.</li>
+                <li><strong>Emergency Blanket:</strong> Provides warmth and can be used for signaling.</li>
+                <li><strong>Water Purification Tablets:</strong> Ensure a safe water supply.</li>
+                <li><strong>Compact Mirror:</strong> A signaling device for attracting attention.</li>
+                <li><strong>Paracord:</strong> Useful for building shelters, making tools, and more.</li>
+                <li><strong>Flashlight:</strong> Essential for navigating in the dark.</li>
+                <li><strong>Whistle:</strong> Another tool for signaling for help.</li>
+            </ul>
+            <p>Simple Tips for Island Living:</p>
+            <ul>
+                <li><strong>Coconut Everything:</strong> Coconuts are not just for drinking! Use them for food,
+                    hydration, and even crafting.</li>
+                <li><strong>Seashell SOS:</strong> Arrange seashells to create large SOS signals on the beach for
+                    potential rescuers.</li>
+                <li><strong>Rock Cairns:</strong> Build small cairns to mark your path and prevent getting lost.</li>
+                <li><strong>Improvised Fishing Gear:</strong> Turn found objects into makeshift fishing gear to catch
+                    seafood.</li>
+            </ul>
+            <p>Join us on this journey, and let's turn the challenge of surviving on a remote island into a thrilling
+                adventure!</p>
+            <!-- Placeholder Images as Cards -->
+            <div class="row mt-4">
+                <!-- Shelter Building Card -->
+                <div class="col-md-4">
+                    <div class="card" id="card1">
+                        <img alt="Shelter Building" class="card-img-top"
+                            src="https://www.truthsurvival.com/wp-content/uploads/2016/03/How-to-Build-a-Survival-Shelter.jpg" />
+                        <div class="card-body">
+                            <h5 class="card-title">Shelter Building</h5>
+                            <p class="card-text">Master the art of creating shelters using natural resources like
+                                branches, leaves, and vines. A well-constructed shelter is your first line of defense
+                                against the elements.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Water Sourcing Card -->
+                <div class="col-md-4">
+                    <div class="card" id="card2">
+                        <img alt="Water Sourcing" class="card-img-top"
+                            src="https://knowpreparesurvive.com/wp-content/uploads/2017/04/solar-still.png" />
+                        <div class="card-body">
+                            <h5 class="card-title">Water Sourcing</h5>
+                            <p class="card-text">Learn how to find and purify water. Coconuts are a lifesaver for
+                                hydration, and you'll discover other hidden sources on the island.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Navigation Techniques Card -->
+                <div class="col-md-4">
+                    <div class="card" id="card3">
+                        <img alt="Navigation Techniques" class="card-img-top"
+                            src="https://cdn.theconversation.com/files/156497/width754/image-20170213-23342-47che9.png" />
+                        <div class="card-body">
+                            <h5 class="card-title">Navigation Techniques</h5>
+                            <p class="card-text">Use natural landmarks and celestial cues for navigation. Getting lost
+                                on an island is no joke!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Placeholder Image Cards -->
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <div class="container text-center">
+            <p>© 2023 Island Survival. All rights reserved.</p>
+            <p>Contact: bayborinova2004@gmail.com</p>
+        </div>
+    </footer>
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Your custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>

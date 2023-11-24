@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet"/>
+<link href="Example-of-a-Teepee.jpg" rel="icon" type="image/x-icon"/>
+<title>Contact Island Survival</title>
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<a class="navbar-brand" href="index.html">Island Survival</a>
+<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link" href="index.html"><i class="fas fa-home"></i> Main</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="about.html"><i class="fas fa-info-circle"></i> About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="survival-stories.html"><i class="fas fa-book"></i> Survival Stories</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="quiz.html"><i class="fas fa-question-circle"></i> Quiz</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+</li>
+</ul>
+</div>
+</nav>
+<!-- Main Content -->
+<div class="container mt-4">
+<div class="jumbotron">
+<h1 class="display-4">Contact Island Survival</h1>
+<p class="lead">Have questions or suggestions? Reach out to us!</p>
+<hr class="my-4"/>
+<p>Fill out the form below, and we'll get back to you as soon as possible.</p>
+<!-- Contact Form (You may need to set up a backend to handle form submissions) -->
+<form>
+<div class="form-group">
+<label for="name">Name:</label>
+<input class="form-control" id="name" required="" type="text"/>
+</div>
+<div class="form-group">
+<label for="email">Email:</label>
+<input class="form-control" id="email" required="" type="email"/>
+</div>
+<div class="form-group">
+<label for="message">Message:</label>
+<textarea class="form-control" id="message" required="" rows="4"></textarea>
+</div>
+<button class="btn btn-primary btn-lg" id="clickMeButton">Submit</button>
+</form>
+</div>
+</div>
+<!-- Footer -->
+<footer class="footer mt-5">
+<div class="container text-center">
+<p>© 2023 Island Survival. All rights reserved.</p>
+<p>Contact: bayborinova2004@gmail.com</p>
+</div>
+</footer>
+<!-- Bootstrap JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Your custom JavaScript -->
+<script src="script.js"></script>
+<audio id="keypressAudio" src="399097__rulfer__click.wav"></audio><script>
+document.addEventListener('keypress', function() {
+    var audio = document.getElementById('keypressAudio');
+    if (audio) {
+        audio.play();
+    }
+});
+</script></body>
+</html>

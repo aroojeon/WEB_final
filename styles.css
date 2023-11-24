@@ -1,0 +1,58 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  /* Add your custom styles here */
+  /* styles.css */
+  
+  body {
+    background-color: #f4f4f4;
+  }
+  
+  .navbar {
+    background-color: #919191;
+    color: #ffffff;
+  }
+  
+  .navbar a {
+    color: #006d8f !important;
+  }
+  
+  .jumbotron {
+    background-color: #ffffff;
+    color: #495057;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #343a40;
+  }
+  
+  .footer {
+    background-color: #006d8f;
+    color: #ffffff;
+    padding: 15px 0;
+  }
+  
+  .footer a {
+    color: #ffffff;
+  }
+  
+  /* styles.css */
+
+.btn {
+    background-color: #006d8f;
+    border-color: #006d8f;
+    color: #ffffff; /* text color for contrast */
+  }
+  
+  .btn:hover {
+    background-color: #00506b; /* darker shade on hover */
+    border-color: #00506b;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  
